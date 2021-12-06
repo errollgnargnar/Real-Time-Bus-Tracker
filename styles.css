@@ -1,0 +1,18 @@
+
+#map{
+    height: 800px;
+}
+
+.map-style-select{
+    height: 120px;
+}
+
+.map-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mapboxgl-popup{
+    max-width: 60px !important;
+}
