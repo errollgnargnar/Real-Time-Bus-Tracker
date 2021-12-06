@@ -1,15 +1,17 @@
 # Real Time Boston Bus Tracker
 
 Description of the project: 
-> What does the current project do? 
->> Include improvements you made in the description. 
+> This pulls all busses that are in transit and displays them onto the map. There is also the feature to set the map style on the bottom of the page, next to where you can see the number of buses in transit. The popup boxes for every bus is displayed with text containing the bus number and occupancy status. The map updates every 4 seconds. 
 
 How to Run: 
-> This is information someone would use to run your project on their machine.
+> The Tracker runs automatically with no need to clone the repo or enter in an API Access Token of any kind. Simply load the the webpage and the data will display automatically.
 
 Roadmap of future improvements: 
-- What additional features 
-- or functionality would be 
-- helpful to a user? 
+- The ability to select which route you want to recieve available buses from.
+- The popup for each bus can be more sophisticated with data display. 
+- Use user location to display nearest bus in transit.  
 
-License information: This should include information about the MIT license. 
+License information: 
+> This was created as an assignment for MIT xPro Full Stack Web Development. 
+>   async function run() was created by Dr. Sanchez.
+> The access token which is included in this github is being allowed to use for fellow MIT students. If abused, token will be taken down. 
